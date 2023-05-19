@@ -103,5 +103,5 @@ const validateInputs = () => {
   setTimeout(() => {
     danger.style.display = "none";
     allSuccess.style.display = "none";
-  }, 10000);
+  }, 3000);
 };
