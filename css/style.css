@@ -537,7 +537,7 @@ header .navbar :hover {
   display: flex;
   justify-content: start;
 }
-.messages .all_success {
+.messages .all_ {
   color: var(--bg-color);
   background-color: var(--white);
   position: absolute;
@@ -545,7 +545,7 @@ header .navbar :hover {
   display: none;
 }
 .messages .all_success h3 {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: bold;
   color: var(--bg-color);
   background-color: var(--white);
@@ -558,7 +558,7 @@ header .navbar :hover {
   display: none;
 }
 .messages .danger h3 {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: bold;
   color: darkred;
   background-color: var(--white);
@@ -613,6 +613,7 @@ header .navbar :hover {
   }
   #home .notes {
     display: block;
+    font-weight: bolder;
   }
   .nav__container {
     background-color: var(--nude);
