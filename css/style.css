@@ -108,7 +108,6 @@ section {
 }
 #home .notes {
   display: none;
-  font-weight: bold;
 }
 .line {
   overflow: hidden;
@@ -537,7 +536,7 @@ header .navbar :hover {
   display: flex;
   justify-content: start;
 }
-.messages .all_ {
+.messages .all_success {
   color: var(--bg-color);
   background-color: var(--white);
   position: absolute;
@@ -614,6 +613,8 @@ header .navbar :hover {
   #home .notes {
     display: block;
     font-weight: bolder;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
   }
   .nav__container {
     background-color: var(--nude);
