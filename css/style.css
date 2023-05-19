@@ -186,7 +186,7 @@ a {
 .btn {
   display: inline-block;
   margin-top: 1rem;
-  padding: 0.8rem 3rem;
+  padding: 1rem 3rem;
   background: #222;
   color: #fff;
   font-size: 1.9rem;
@@ -613,6 +613,7 @@ header .navbar :hover {
   }
   #home .notes {
     display: block;
+    margin-bottom: 0.7rem;
   }
   #home .notes h2 {
     color: var(--white);
