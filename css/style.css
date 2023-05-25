@@ -266,7 +266,7 @@ header .navbar :hover {
 .main {
   overflow: hidden;
 }
-/*=============== HEADER & NAV MOBILE VIEW ===============*/
+/* HEADER & NAV MOBILE VIEW*/
 .header {
   width: 100%;
   display: none;
@@ -277,7 +277,7 @@ header .navbar :hover {
   z-index: 100;
 }
 .nav__container {
-  height: 4rem;
+  height: 4.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -671,5 +671,14 @@ header .navbar :hover {
   }
   .contact .row form .inputBox input {
     width: 100%;
+  }
+}
+
+@media (max-width: 350px) {
+  #home .line p a {
+    font-size: 6.5rem;
+  }
+  #form .messages h3 {
+    font-size: 10px;
   }
 }

@@ -24,6 +24,7 @@ function sendMail() {
 const form = document.getElementById("form");
 const nameInput = document.getElementById("from_name");
 const email = document.getElementById("email_id");
+const subject = document.getElementById("subject");
 const messsageInput = document.getElementById("message");
 const allSuccess = document.getElementById("all_success");
 console.log(form, nameInput, email, messsageInput, allSuccess);
@@ -97,6 +98,10 @@ const validateInputs = () => {
     allSuccess.style.display = "none";
   } else {
     allSuccess.style.display = "block";
+    setTimeout(() => {
+      subject.value = "";
+    }, 1500);
+
     document.getElementById("btn-submit").addEventListener("click", sendMail());
   }
 
