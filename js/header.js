@@ -12,20 +12,16 @@ if (navToggle) {
 
 /===== MENU HIDDEN =====/;
 
-/* Validate if constant exists */
-
 if (navClose) {
   navClose.addEventListener("click", () => {
     navMenu.classList.remove("show-menu");
   });
 }
 
-/*emOVE MENU MOBILE */
 const navLink = document.querySelectorAll(".nav__link");
 
 const linkAction = () => {
   const navMenu = document.getElementById("nav-menu");
-  // When we click on each nav__link, we emove the show-ment navMenu.classList.emove('show-menu')
 
   navMenu.classList.remove("show-menu");
 };
